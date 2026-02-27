@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.DS_Store
+.idea/
+.vscode/
+
+# Colcon/ROS2 build artifacts
+build/
+install/
+log/
