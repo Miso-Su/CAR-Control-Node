@@ -1,2 +1,9 @@
 # Changelog
 
+# 2026-02-26
+- Pushed a code base
+- Realized the code base that was generated with Codex wasn't controling
+- Fixed integral windup
+- Implemented a DARE solver to create the LQR
+- Implemented a logger and discretized time system
+- Triple call back publishing (SYNTAX adjustment)
