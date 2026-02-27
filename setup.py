@@ -11,7 +11,7 @@ setup(
         ("share/" + package_name, ["package.xml"]),
         ("share/" + package_name + "/launch", ["launch/lqr_pid_controller.launch.py"]),
     ],
-    install_requires=["setuptools", "numpy"],
+    install_requires=["setuptools", "numpy", "scipy"],
     zip_safe=True,
     maintainer="pichs",
     maintainer_email="pichs@todo.com",
@@ -20,7 +20,7 @@ setup(
     tests_require=["pytest"],
     entry_points={
         "console_scripts": [
-            "controller_node = lqr_pid_controller.controller_node:main",
+            "controller_node = "controller_node = lqr_pid_controller.lqr_pid_controller:main",
         ],
     },
 )
