@@ -20,7 +20,7 @@ setup(
     tests_require=["pytest"],
     entry_points={
         "console_scripts": [
-            "controller_node = "controller_node = lqr_pid_controller.lqr_pid_controller:main",
+            "controller_node = lqr_pid_controller.lqr_pid_controller:main",
         ],
     },
 )
